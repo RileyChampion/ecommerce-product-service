@@ -17,8 +17,8 @@ const swaggerDefinition: SwaggerDefinition = {
 };
   
 const swaggerOptions: Options = {
-swaggerDefinition,
-apis: ['./src/routes/*.ts'], // Path to the API routes files for annotations
+    swaggerDefinition,
+    apis: ['./src/routes/*.ts'], // Path to the API routes files for annotations
 };
 
 const swaggerSpec = swaggerJSDoc(swaggerOptions);
