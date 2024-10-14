@@ -2,7 +2,7 @@ name: E-commerce Product Service Pipeline
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on:
   push:
-    branchs: 
+    branches: 
       - main
 jobs:
   build:
